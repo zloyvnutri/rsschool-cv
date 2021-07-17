@@ -13,7 +13,6 @@ __Objective__
 * __Seeking a position in a growth-oriented company__
 
 __Skills__
-
 * __Good at establishing rapport with people from diverse backgrounds__
 
 * __Higly organized and detail-oriented__
