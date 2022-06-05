@@ -1,26 +1,26 @@
-# __Evgeny Petukhov__
+# __*Evgeny Petukhov*__
 
 ## __Contacts:__
 
-* __Email__ _zloyvnutri@gmail.com_
-* __Discord__ _ZloyVnutri#8584_
-* __Phone number__ _+375 25 959 48 29_
+* __Email__ *zloyvnutri@gmail.com*
+* __Discord__ *ZloyVnutri#8584*
+* __Phone number__ *+375 25 959 48 29*
 
 ## __Objective__
 
-* _Extremely motivated for career change goal_
-* _Seeking a position in a growth-oriented company_
+* *Extremely motivated for career change goal*
+* *Seeking a position in a growth-oriented company*
 
 ## __Skills__
 
-* _Good at establishing rapport with people from diverse backgrounds_
-* _Higly organized and detail-oriented_
-* _I learn quickly in practice_
-* _Punctual_
+* *Good at establishing rapport with people from diverse backgrounds*
+* *Higly organized and detail-oriented*
+* *I learn quickly in practice*
+* *Punctual*
 
 ## __Education__
 
-_Vocational and technical_
+*Vocational and technical*
 
 ## __Language skills A2__
 
