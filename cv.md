@@ -1,15 +1,35 @@
-	      <h2>Contacts:</h2>
-            <p>Email zloyvnutri@gmail.com</p>
-            <p>Discord ZloyVnutri#8584</p>
-            <p>Phone number +375 25 959 48 29</p>
-        <h2>Objective</h2>
-            <p>Extremely motivated for career change goal</p>
-            <p>Seeking a position in a growth-oriented company</p>
-        <h2>Skills</h2>
-            <p>Good at establishing rapport with people from diverse backgrounds</p>
-            <p>Higly organized and detail-oriented</p>
-            <p>I learn quickly in practice</p>
-            <p>Punctual</p>
-        <h2>Education</h2>
-            <p>Vocational and technical</p>
-        <h2>Language skills A2</h2>
+# __*Evgeny Petukhov*__
+
+## __Contacts:__
+
+* __Email__ *zloyvnutri@gmail.com*
+* __Discord__ *ZloyVnutri#8584*
+* __Phone number__ *+375 25 959 48 29*
+
+## __Objective__
+
+* *Extremely motivated for career change goal*
+* *Seeking a position in a growth-oriented company*
+
+## __Skills__
+
+* *Good at establishing rapport with people from diverse backgrounds*
+* *Higly organized and detail-oriented*
+* *I learn quickly in practice*
+* *Punctual*
+
+## __Education__
+
+*Vocational and technical*
+
+## __Language skills A2__
+
+## __Code__
+
+```javascript
+function descendingOrder(n){
+var digits = (""+n).split("").sort(function(a, b){return b-a});
+digits = digits.join("");
+return Number(digits);
+};
+```
