@@ -1,0 +1,337 @@
+.page {
+    max-width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    
+    box-sizing: border-box;
+    padding: 10px 15px;
+
+    display: block;
+}
+@media (max-width:1200px){
+    .page{
+        max-width: 970px;
+    }
+}
+@media (max-width:992px){
+    .page{
+        max-width: 750px;
+    }
+}
+@media (max-width:767px){
+    .page{
+        max-width: none;
+    }
+}
+.header {
+    flex-direction: row;
+
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.avatar {
+    width: 30%;
+    background-color: gray;
+
+    box-sizing: border-box;
+    margin: 0;
+
+    display: block;
+}
+.header_avatar {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    width: 250px;
+    margin: 50px auto;
+    position: relative;
+    z-index: 2;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.header_foto {
+    border-radius: 35%;
+    width: 100%;
+    object-fit: cover;
+}
+.header_text {
+    width: 70%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text {
+    font-size: 30px;
+    color: chartreuse;
+    font-family: cursive;
+    line-height: 55px;
+    text-align: center;
+}
+.main_cv {
+    display: flex;
+    width: 100%;
+}
+.column {
+    width: 30%;
+    background-color: gray;
+
+    display: block;
+}
+.section_contacts {
+padding-bottom: 50px;
+display: block;
+font-size: 18px;
+font-family: cursive;
+}
+.contacts {
+    padding-bottom: 0px;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 40px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+}
+.all_contacts {
+    list-style: none;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.email_class {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    box-sizing: border-box;
+    padding: 0;
+}
+.email_image {
+    background-image: url(https://cdn-icons-png.flaticon.com/128/580/580704.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    display: block;
+}
+.email_text {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.email_link {
+    color: rgb(3, 32, 192);
+    text-decoration: none;
+    transition: all .4s linear;
+
+    box-sizing: border-box;
+    padding: 6px;
+    margin: 5px;
+}
+.discord_class {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    box-sizing: border-box;
+    padding: 0;
+}
+.discord_image {
+    background-image: url(https://cdn-icons-png.flaticon.com/128/3670/3670325.png);
+
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+    display: block;
+}
+.discord_text {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    display: block;
+}
+.discord_link {
+    color: rgb(3, 32, 192);
+    text-decoration: none;
+    transition: all .4s linear;
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.github_class {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    box-sizing: border-box;
+    padding: 0;
+}
+.github_image {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/25/25231.png);
+
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+    display: block;
+}
+.github_text {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    display: block;
+}
+.github_link {
+    color: rgb(3, 32, 192);
+    text-decoration: none;
+    transition: all .4s linear;
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.phone_class {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.phone_image {
+    background-image: url(https://cdn-icons-png.flaticon.com/128/15/15863.png);
+
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+    display: block;
+}
+.phone_text {
+    color: blue;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    display: block;
+}
+.column2 {
+    width: 70%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: cursive;
+}
+.section_objective {
+    padding-left: 30px;
+}
+.objective {
+    color: chartreuse;
+}
+.all_objective {
+    color: white;
+}
+.section_skills {
+    padding-left: 30px;
+}
+.skills {
+    color: chartreuse;
+}
+.all_skills {
+    color: white;
+}
+.section_education {
+    padding-left: 30px;
+}
+.education {
+    color: chartreuse;
+}
+.all_education {
+    color: white;
+}
+.section_language {
+    padding-left: 30px;
+    color: chartreuse;
+}
+.section_code {
+    padding-left: 30px;
+}
+.example_text {
+    color: chartreuse;
+}
+.code {
+    color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+.footer {
+    background-color: white;
+    text-align: center;
+    display: block;
+}
+.footer_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rsschool_logo {
+    background-image: url(https://pbs.twimg.com/media/EDO0GXBXYAATMFU.jpg);
+
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 80px;
+    margin-right: 170px;
+    display: block;
+}
+.date_end {
+    font-size: 60px;
+    font-family: cursive;
+}
